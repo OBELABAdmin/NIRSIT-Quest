@@ -1,0 +1,17 @@
+make_p_code.m
+NIRSIT_Quest_DataClass/@subjectClass/class2struct.p
+NIRSIT_Quest_DataClass/@subjectClass/get_block.p
+NIRSIT_Quest_DataClass/@subjectClass/jobman_blockAveraging.p
+NIRSIT_Quest_DataClass/@subjectClass/jobman_blockDefinition.p
+NIRSIT_Quest_DataClass/@subjectClass/jobman_connectivity.p
+NIRSIT_Quest_DataClass/@subjectClass/jobman_GLM_estimate.p
+NIRSIT_Quest_DataClass/@subjectClass/jobman_GLM_specify.p
+NIRSIT_Quest_DataClass/@subjectClass/jobman_loadPreset.p
+NIRSIT_Quest_DataClass/@subjectClass/jobman_preprocessing.p
+NIRSIT_Quest_DataClass/@subjectClass/jobman_trimming.p
+NIRSIT_Quest_DataClass/@subjectClass/jobman_validate.p
+NIRSIT_Quest_DataClass/@subjectClass/json2block.p
+NIRSIT_Quest_DataClass/@subjectClass/process.p
+NIRSIT_Quest_DataClass/@subjectClass/Processing.p
+NIRSIT_Quest_DataClass/@subjectClass/reset.p
+NIRSIT_Quest_DataClass/@subjectClass/rmAutoCorr.p
