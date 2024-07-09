@@ -66,6 +66,25 @@ When saving data in SNIRF format, only raw intensity data will be saved.
 ```matlab
 save(data,'/your/snirf/data/path.prep');
 ```
+
+### 3. Modifying Markers
+```matlab
+data = subjectClass('/your/processed/data/path.prep');
+
+data.marker.marker(data.marker.marker~=0)'
+ans =
+  1×31 uint32 row vector
+   7777   8888   1111   2222   1000   1001   1111   2222   2000   2001   1111   2222   3000   3001   1111   2222   4000   4001   1111   2222   5000   5001   1111   2222   6000   6001   1111   2222   7000   7001   9999
+
+data.marker.marker(data.marker.marker == 7777) = 1234;
+
+data.marker.marker(data.marker.marker~=0)'
+ans =
+  1×31 uint32 row vector
+   1234   8888   1111   2222   1000   1001   1111   2222   2000   2001   1111   2222   3000   3001   1111   2222   4000   4001   1111   2222   5000   5001   1111   2222   6000   6001   1111   2222   7000   7001   9999
+
+save(data,'/your/snirf/data/path.prep');
+```
 See the example code for more details.
 
 ## Supprot
